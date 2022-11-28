@@ -4,18 +4,19 @@
   "description": "Proyecto Api Hotelia",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kzamora951/Hotelia.git"
+    "url": "git+https://github.com/jarison102/hotelia-api.git"
   },
-  "author": "Kevin Zamora",
+  "author": "Jarison Stived",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Kzamora951/Hotelia/issues"
   },
-  "homepage": "https://github.com/Kzamora951/Hotelia#readme",
+  "homepage": "https://github.com/jarison102/hotelia-api",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
