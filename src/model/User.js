@@ -1,5 +1,5 @@
 const{Schema,model}=require("mongoose");
-const UserSchema = new Schema({
+const UserSchema =new Schema({
     _id:Number,
     tipodoc:String,
     nombre:String,
@@ -15,7 +15,7 @@ const UserSchema = new Schema({
     reserva:String,
 
    reserva:[{
-    type:Schema.type.Number,
+    type:Schema.Types.Number,
     ref:`reserva`
     
    }]

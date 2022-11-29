@@ -6,14 +6,14 @@ const reservaSchema = new Schema({
    fechareserva:Date,
    totalReserva:Number,
    user:[{
-    type:Schema.type.Number,
+    type:Schema.Types.Number,
     ref:`user`
    }],
    habitacion:[{
-    type:Schema.type.Number,
+    type:Schema.Types.Number,
     ref:`Habitacion`
     
    }]
-})
+});
 
 module.exports=model("reserva",reservaSchema);
